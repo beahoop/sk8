@@ -63,3 +63,18 @@ Recreate one of the following three responsive layouts:
 [Responsive Full Width Grid](https://tympanus.net/Blueprints/ResponsiveFullWidthGrid/)
 
 [Responsive Icon Grid](https://tympanus.net/Blueprints/ResponsiveIconGrid/)
+
+
+
+**HINT**
+ONE CONTAINER !!!!
+
+by default there is padding of 12 on class bootstrap
+
+Bootstrap Columns
+padding left and right added by default
+
+Bootstrap Rows
+-15px left/right margin
+added by default to remove it add class
+name no-gutters g-0

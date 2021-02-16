@@ -117,6 +117,21 @@ h2 {
   margin-bottom: 10px;
 }
 
+.img5 {
+  position: relative;
+}
+
+.lance {
+  position: absolute;
+  width: 30%;
+  font-size: 3rem;
+  top: 10%;
+  left: 11%;
+  right: 90%;
+  color: white;
+  font-weight: bolder;
+}
+
 .skate {
   background-color: white;
   padding-top: 100px;
@@ -160,6 +175,40 @@ h2 {
   .skateboards img {
     transform: rotate(0deg);
     margin: 5%;
+  }
+}
+@media (max-width: 1200px) {
+  .lance {
+    position: absolute;
+    width: 30%;
+    font-size: 2rem;
+    top: 10%;
+    left: 11%;
+    right: 90%;
+    color: white;
+    font-weight: bolder;
+  }
+}
+@media (max-width: 950px) {
+  .lance {
+    position: absolute;
+    width: 30%;
+    font-size: 1rem;
+    top: 10%;
+    left: 11%;
+    right: 90%;
+    color: white;
+    font-weight: bolder;
+  }
+}
+@media (max-width: 575px) {
+  .lance {
+    position: absolute;
+    width: 30%;
+    font-size: 2rem;
+    top: 50%;
+    color: white;
+    font-weight: bolder;
   }
 }
 

@@ -78,3 +78,11 @@ Bootstrap Rows
 -15px left/right margin
 added by default to remove it add class
 name no-gutters g-0
+
+
+**NOTES**
+
+Container has margin on it.
+container-fluid without margin.
+Container medium will be container as large once it hits the break point it'll be container-fluid; These all have padding of 12 on it.
+-----------------------
